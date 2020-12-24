@@ -12,5 +12,4 @@ One of the common improvements is to make sure that async IO events like queries
 
 Once the function is fine tuned, how to make sure that the improvement gets undone by mistake? With a unit test of course!  
 The repo contains an example of a Jest test that measure execution time of a mocked function.  
-`setTimeout` has been used in place of the IO interaction for dimostration purposes.
-# query-timings
+`setTimeout` has been used in place of the IO interaction for dimostration purposes
