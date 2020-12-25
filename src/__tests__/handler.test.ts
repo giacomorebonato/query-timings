@@ -27,6 +27,7 @@ describe('handler', () => {
   
       const end = performance.now()
   
+      expect(mock).toHaveBeenCalledTimes(5);
       expect(end - start).toBeGreaterThan(1000)
       expect(end - start).toBeLessThan(1500)
     })
